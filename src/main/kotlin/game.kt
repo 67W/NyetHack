@@ -12,7 +12,6 @@ fun main(args: Array<String>) {
     printPlayerStatus(auraColor, isBlessed, name, healthStatus)
 
     castFireball()
-
 }
 
 private fun formatHealthStatus(healthPoints: Int, isBlessed: Boolean): String =
